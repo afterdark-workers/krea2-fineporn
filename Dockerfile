@@ -1,0 +1,12 @@
+# Krea 2 FinePorn — RunPod Serverless ComfyUI worker
+# Build on RunPod from your own PRIVATE copy of this repo (Dockerfile path = Dockerfile, build context = .).
+# The build steps are downloaded from the original repo, so you never need to edit anything but the token.
+
+# >>> Put your Civitai API token here (civitai.com → Account settings → Security & Apps → API Keys → Add API key → Read Only). Keep your repo PRIVATE. <<<
+ARG CIVITAI_TOKEN=PASTE_YOUR_CIVITAI_TOKEN_HERE
+
+FROM runpod/worker-comfyui:5.10.0-base
+ARG CIVITAI_TOKEN
+ADD https://github.com/afterdark-workers/krea2-fineporn/releases/latest/download/build.sh /build.sh
+RUN CIVITAI_TOKEN="$CIVITAI_TOKEN" sh /build.sh
+ADD https://github.com/afterdark-workers/krea2-fineporn/releases/latest/download/handler.py /handler.py
