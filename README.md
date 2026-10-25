@@ -1,6 +1,6 @@
 # Krea 2 FinePorn — RunPod Serverless worker
 
-A ready-to-build [RunPod Serverless](https://runpod.io?ref=qpguwapm) worker for **Krea2 FinePorn v5**, a photorealistic adult Krea 2 Turbo fine-tune. Based on the official [`runpod/worker-comfyui`](https://github.com/runpod-workers/worker-comfyui).
+A ready-to-build [RunPod Serverless](https://runpod.io?ref=qpguwapm) worker for **[Krea2 FinePorn v5](https://civitai.com/models/2762538?modelVersionId=3361846)**, a photorealistic adult Krea 2 Turbo fine-tune. Based on the official [`runpod/worker-comfyui`](https://github.com/runpod-workers/worker-comfyui).
 
 Models are baked into the image, so a cold start does not re-download anything.
 
@@ -10,9 +10,9 @@ Models are baked into the image, so a cold start does not re-download anything.
 
 | File | Source | Size |
 |---|---|---|
-| `diffusion_models/krea2_fineporn_v5_fp8.safetensors` | Civitai 2762538 / version 3361846 | 12.2 GB |
-| `text_encoders/qwen3vl_4b_fp8_scaled.safetensors` | Comfy-Org/Krea-2 (Krea 2 Community License) | 5.2 GB |
-| `vae/qwen_image_vae.safetensors` | Comfy-Org/Krea-2 | 0.3 GB |
+| `diffusion_models/krea2_fineporn_v5_fp8.safetensors` | [Civitai 2762538 / version 3361846](https://civitai.com/models/2762538?modelVersionId=3361846) | 12.2 GB |
+| `text_encoders/qwen3vl_4b_fp8_scaled.safetensors` | [Comfy-Org/Krea-2](https://huggingface.co/Comfy-Org/Krea-2) (Krea 2 Community License) | 5.2 GB |
+| `vae/qwen_image_vae.safetensors` | [Comfy-Org/Krea-2](https://huggingface.co/Comfy-Org/Krea-2) | 0.3 GB |
 
 Just the model as its creator released it — no LoRAs, no extra nodes. All files are checked by SHA-256 at build time. ComfyUI is upgraded to 0.39.0.
 
