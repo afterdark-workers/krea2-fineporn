@@ -2,7 +2,7 @@
 
 > 🔞 **Adult (18+) · NSFW** — part of afterdark-workers, workers for uncensored adult image and video models.
 
-A ready-to-build [RunPod Serverless](https://runpod.io?ref=qpguwapm) worker for **[Krea2 FinePorn v5](https://civitai.com/models/2762538?modelVersionId=3361846)**, a photorealistic adult Krea 2 Turbo fine-tune. Based on the official [`runpod/worker-comfyui`](https://github.com/runpod-workers/worker-comfyui).
+A ready-to-build [RunPod Serverless](https://runpod.io?ref=qpguwapm) worker for **[Krea2 FinePorn v5](https://civitai.com/models/2762538?modelVersionId=3361846)** by [simonishere](https://civitai.com/user/simonishere), a photorealistic adult Krea 2 Turbo fine-tune. Based on the official [`runpod/worker-comfyui`](https://github.com/runpod-workers/worker-comfyui).
 
 Models are baked into the image, so a cold start does not re-download anything.
 
