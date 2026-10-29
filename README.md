@@ -25,7 +25,7 @@ New to this? Follow the [step-by-step setup guide](https://cobaltpear.github.io/
 1. **Make your own private copy** — click **Use this template** → **Create a new repository** → choose **Private**.
    (Your Civitai token will be in it, so it must stay private.)
 2. **Add your Civitai token** — get one at civitai.com → Account settings → **Security & Apps** → **API Keys** → **Add API key** → Permission preset **Read Only**.
-   In your copy, open `Dockerfile` → ✏️ edit → replace `PASTE_YOUR_CIVITAI_TOKEN_HERE` on line 5 → Commit.
+   In your copy, open `Dockerfile` → ✏️ edit → replace `PASTE_YOUR_CIVITAI_TOKEN_HERE` on line 6 → Commit.
    No RunPod account yet? [Sign up here](https://runpod.io?ref=qpguwapm) — a referral link: after you first add $10, RunPod gives you a bonus credit (usually $5–10) and this repo a small credit.
 3. **Create the endpoint** — see [Create the endpoint](#create-the-endpoint) below.
 4. **Create an API key** — RunPod → Settings → API Keys → **Restricted**, allow only this endpoint.
